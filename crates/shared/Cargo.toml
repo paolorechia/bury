@@ -5,8 +5,12 @@ edition.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Shared utilities for Neural Garage analysis tools"
-publish = false  # Internal use only
+description = "Shared utilities for Neural Garage code analysis tools - parsers, scanners, and reporters"
+keywords = ["parser", "tree-sitter", "ast", "code-analysis", "reporter"]
+categories = ["development-tools", "parsing"]
+readme = "README.md"
+homepage = "https://github.com/neural-garage/tools"
+documentation = "https://docs.rs/neural-shared"
 
 [dependencies]
 tree-sitter = { workspace = true }

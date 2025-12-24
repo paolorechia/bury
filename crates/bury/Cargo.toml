@@ -8,10 +8,13 @@ repository.workspace = true
 description = "A blazingly fast dead code detector for Python and TypeScript using reachability analysis"
 keywords = ["dead-code", "analyzer", "linter", "reachability", "static-analysis"]
 categories = ["development-tools", "command-line-utilities"]
+readme = "README.md"
+homepage = "https://github.com/neural-garage/tools"
+documentation = "https://docs.rs/bury"
 
 [dependencies]
 # Internal shared library
-neural-shared = { path = "../shared" }
+neural-shared = { version = "0.1.0", path = "../shared" }
 
 # CLI
 clap = { workspace = true }
